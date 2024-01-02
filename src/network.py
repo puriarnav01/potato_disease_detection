@@ -35,6 +35,6 @@ class CNN(nn.Module):
         x = self.output(x)
         return x
 
-X = torch.rand(1,3,225,225)
-model = CNN()
-yhat = model(X)
+# X = torch.rand(1,3,225,225)
+# model = CNN()
+# yhat = model(X)

@@ -3,7 +3,6 @@ from torch.utils.data import Dataset, DataLoader
 import pandas as pd
 from torchvision import transforms as T
 import cv2
-from PIL import Image
 from sklearn.model_selection import train_test_split
 
 class PotatoDataset(Dataset):

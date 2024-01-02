@@ -52,3 +52,4 @@ def train_model(model,criterion,optim,epochs,train_loader, test_loader):
         print("\nSUMMARY: Epoch: {}, Train Acc: {}, Test_Acc:{}".format(epoch+1,train_acc[-1],test_acc[-1]))
     
     return train_loss, test_loss, train_acc, test_acc, best_model, model
+
